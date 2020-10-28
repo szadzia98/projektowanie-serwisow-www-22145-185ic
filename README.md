@@ -1,7 +1,6 @@
-##Lab 1
-#Praca z systemem kontroli wersji. Podstawy WWW.
-cel - stworzyć prostą stronę WWW, nie wymagającą użycia serwera webowego,
-strona powinna zawierać linki do trzech podstron, które należy utworzyć:
+## Lab 1
+# Praca z systemem kontroli wersji. Podstawy WWW.
+cel - stworzyć prostą stronę WWW, nie wymagającą użycia serwera webowego,strona powinna zawierać linki do trzech podstron, które należy utworzyć:
 strona z listem (odpowiednio sformatowany tekst, przypominający list),
 ![](Lab1/Screen/List1.jpg)
 ![](Lab1/Screen/List2.jpg)
