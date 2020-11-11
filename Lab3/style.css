@@ -1,0 +1,17 @@
+.input-size{
+    width: 500px;
+}
+#Event3{
+    border-style: solid;
+    border-color: black;
+}
+#Event4{
+    border-style: double;
+    border-color: black;
+    background-color: royalblue;
+    height: 200px;
+}
+#Event9 {
+    width: 300px;
+    height: 100px;
+}
