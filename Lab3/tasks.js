@@ -59,18 +59,42 @@ document.getElementById("Task5").innerHTML = wybierz(text5a,text5b);
     var miesiac = text5b.toLowerCase();
     var text;
     switch (miesiac){
-    case "styczeń"||"luty"||"grudzień":
+    case "styczeń":
         text = text5a + " jezdzi na sankach";
-    break;
-    case "marzec"||"kwiecień"||"maj":
+        break;
+    case "luty":
+        text = text5a + " jezdzi na sankach";
+        break;
+    case "grudzień":
+        text = text5a + " jezdzi na sankach";
+        break;
+    case "marzec":
         text = text5a + " chodzi po kaluzach";
-    break;
-    case "czerwiec"||"lipiec"||"sierpień":
+        break;
+    case "kwiecień":
+        text = text5a + " chodzi po kaluzach";
+        break;
+    case "maj":
+        text = text5a + " chodzi po kaluzach";
+        break;
+    case "czerwiec":
         text = text5a + " sie opala";
-    break;
-    case "wrzesień"||"październik"||"listopad":
+        break;
+    case "lipiec":
+        text = text5a + " sie opala";
+        break;
+    case "sierpień":
+        text = text5a + " sie opala";
+        break;
+    case "wrzesień":
         text = text5a + " zbiera liscie";
-    break;
+        break;
+    case "październik":
+        text = text5a + " zbiera liscie";
+        break;
+    case"listopad":
+        text = text5a + " zbiera liscie";
+        break;
     default:
         text = text5a + " uczy się JS";
     }
