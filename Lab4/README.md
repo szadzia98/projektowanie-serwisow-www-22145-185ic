@@ -51,31 +51,30 @@ grow – Ostatnia metoda klasy Snake. Jest wywoływana przez obiekt Game gdy wą
 #### Obiekt Game  
 Konstruktor Game przyjmuje dwa argumenty, wskaźniki do elementu canvas i jego kontekstu dwuwymiarowego.  
 
-    Pola klasy:  
+Pola klasy:  
 
-    canvas – to samo co w poprzednich obiektach.  
-    ctx – to samo co w poprzednich obiektach.  
-    width – szerokość wybranego elementu canvas.  
-    height – wysokość wybranego elementu canvas.  
-    state – łańcuch znaków. Określa aktualny stan gry, wykorzystywany przez metodę init. 
-    Początkowa wartość to New.  
-    snake – instancja obiektu Snake. Konstruktor wywołany z argumentami canvas oraz ctx obiektu Game.
-    apple – instancja obiektu Apple. Konstruktor wywołany z argumentami canvas oraz ctx obiektu Game.
-    appleCorrect – zmienna boolowska. Określa, czy jabłko zostało umieszczone na planszy poprawnie (nie na polu, które aktualnie zajmuje wąż).  
-    score – pole, które przechowuje ilość punktów jaką udało się zdobyć graczowi, oczywiście początkowo ustawione na zero.  
+canvas – to samo co w poprzednich obiektach.  
+ctx – to samo co w poprzednich obiektach.  
+width – szerokość wybranego elementu canvas.  
+height – wysokość wybranego elementu canvas.  
+state – łańcuch znaków. Określa aktualny stan gry, wykorzystywany przez metodę init. Początkowa wartość to New.  
+snake – instancja obiektu Snake. Konstruktor wywołany z argumentami canvas oraz ctx obiektu Game.
+apple – instancja obiektu Apple. Konstruktor wywołany z argumentami canvas oraz ctx obiektu Game.
+appleCorrect – zmienna boolowska. Określa, czy jabłko zostało umieszczone na planszy poprawnie (nie na polu, które aktualnie zajmuje wąż).  
+score – pole, które przechowuje ilość punktów jaką udało się zdobyć graczowi, oczywiście początkowo ustawione na zero.  
     
-    Metody klasy:  
+Metody klasy:  
 
-    drawWelcome - metoda wywoływana przez metodę init, gdy pole state jest równe New. Metoda ta wypisuje na planszy instrukcje, oraz dodaje do obiektu window eventlistner, który powoduje, że po naciśnięciu enter pole state zmienia się na „playGame” i ponownie odpalana jest metoda init.  
-    activateGame – ta metoda najpierw inicjalizuje węża wywołując metodę obiektu Snake – initSnake a następnie ustawia setInterval. W samym setInterval trochę się dzieje, ale są to głównie proste sprawdzania warunków. Najpierw metoda sprawdza czy wąż zjadł jabłko (poprzez pole obiektu Snake – eaten).Jeśli tak graczowi, doliczane są punkty, wąż rośnie a jabłko zostaje zdjęte z planszy. Kolejną rzeczą, którą robi metoda jest wyczyszczenie elementu canvas, pod warunkiem, że gra nie jest aktualnie zapauzowana. Następnie, jeśli na planszy jest jabłko, wywoływana jest metoda obiektu Apple – drawApple. Jeżeli jabłka nie ma, losowana jest nowa pozycja (tak długo, aż nie będzie pokrywać się z pozycją węża), po czym jabłko zostaje umieszczone na planszy i narysowane. Ostatnią rzeczą, która jest sprawdzana w setInterval to to czy pole obiektu Snake – alive jest równe true. Jeśli tak i gra nie jest zapauzowana, waż jest rysowany i uaktualniany jak zwykle. Jeśli pole alive jest równe false, program zmienia wartość pola state na „gameLost”, umieszcza na ekranie smutną wiadomość i ponownie odpala metodę init.  
-    init – ta metoda obsługuje odpowiednie stany gry i w zależności od wartości pola statewywołuje odpowiednie metody. Jeżeli stan jest równy „gameLost”, ta funkcja resetuje wszystkie ustawienia aby przygotować grę do nowej partii.  
+drawWelcome - metoda wywoływana przez metodę init, gdy pole state jest równe New. Metoda ta wypisuje na planszy instrukcje, oraz dodaje do obiektu window eventlistner, który powoduje, że po naciśnięciu enter pole state zmienia się na „playGame” i ponownie odpalana jest metoda init.  
+activateGame – ta metoda najpierw inicjalizuje węża wywołując metodę obiektu Snake – initSnake a następnie ustawia setInterval. W samym setInterval trochę się dzieje, ale są to głównie proste sprawdzania warunków. Najpierw metoda sprawdza czy wąż zjadł jabłko (poprzez pole obiektu Snake – eaten).Jeśli tak graczowi, doliczane są punkty, wąż rośnie a jabłko zostaje zdjęte z planszy. Kolejną rzeczą, którą robi metoda jest wyczyszczenie elementu canvas, pod warunkiem, że gra nie jest aktualnie zapauzowana. Następnie, jeśli na planszy jest jabłko, wywoływana jest metoda obiektu Apple – drawApple. Jeżeli jabłka nie ma, losowana jest nowa pozycja (tak długo, aż nie będzie pokrywać się z pozycją węża), po czym jabłko zostaje umieszczone na planszy i narysowane. Ostatnią rzeczą, która jest sprawdzana w setInterval to to czy pole obiektu Snake – alive jest równe true. Jeśli tak i gra nie jest zapauzowana, waż jest rysowany i uaktualniany jak zwykle. Jeśli pole alive jest równe false, program zmienia wartość pola state na „gameLost”, umieszcza na ekranie smutną wiadomość i ponownie odpala metodę init.  
+init – ta metoda obsługuje odpowiednie stany gry i w zależności od wartości pola statewywołuje odpowiednie metody. Jeżeli stan jest równy „gameLost”, ta funkcja resetuje wszystkie ustawienia aby przygotować grę do nowej partii.  
 
 ### Widok gry
 Widok po włączeniu gry.  
-![](Screen\1.jpg)  
+![](Screen/1.jpg)  
 Rozpoczęcie gry.  
-![](Screen\2.jpg)  
+![](Screen/2.jpg)  
 Koniec gry poprzez ugryzienie albo wpadnięcie na ścianę (w tym wypadku to drugie).
-![](Screen\3.jpg)  
+![](Screen/3.jpg)  
 Widok zapauzowanej gry.  
-![](Screen\4.jpg)  
+![](Screen/4.jpg)  
