@@ -1,7 +1,7 @@
 # Lab 4
 ## Gra przeglądarkowa
 ### Opis
-Celem gry jest ‚zebranie’ przez gracza jak największej ilości jabłek nie padając wężem na ściany ani nie gryząc się.  
+Celem gry jest ‚zebranie’ przez gracza jak największej ilości jabłek nie wpadając wężem na ściany ani nie gryząc się.  
 
 #### Obiekt Apple 
 Służy do tworzenia na planszy jabłka.  
