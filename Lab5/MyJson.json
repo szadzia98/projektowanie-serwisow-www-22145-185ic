@@ -1,0 +1,39 @@
+{
+  "myTab": [
+    {
+      "znaki": [
+        { "znaki": "abcd", "liczba": "1234" },
+        { "znaki": "efgh", "liczba": "2345" },
+        { "znaki": "ijkl", "liczba": "3456" },
+        { "znaki": "mnop", "liczba": "4567" },
+        { "znaki": "qrst", "liczba": "5678" },
+        { "znaki": "uvwx", "liczba": "6789" },
+        { "znaki": "yz", "liczba": "7890" },
+        {
+          "osobno": [
+            {
+              "liczby": [
+                { "liczba": "12" },
+                { "liczba": "23" },
+                { "liczba": "34" },
+                { "liczba": "45" },
+                { "liczba": "56" },
+                { "liczba": "67" },
+                { "liczba": "78" }
+              ],
+              "znaki": [
+                { "znaki": "zy" },
+                { "znaki": "xwvu" },
+                { "znaki": "tsrq" },
+                { "znaki": "ponm" },
+                { "znaki": "lkji" },
+                { "znaki": "hgfe" },
+                { "znaki": "dcba" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
