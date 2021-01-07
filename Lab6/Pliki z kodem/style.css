@@ -1,0 +1,38 @@
+header{
+    background-color: cornflowerblue;
+}
+.Header_Style{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: lavenderblush;
+text-align: center;
+}
+
+.funkcyjny{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    text-align: center;
+}
+
+.wnetrze{
+    
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; 
+    
+}
+.pod-soba{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.maly-obrazek{
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(180deg);
+    }
+}

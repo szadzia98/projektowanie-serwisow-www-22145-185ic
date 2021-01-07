@@ -18,3 +18,5 @@ Zastosowanie funkcji map()
 ![](Screen/map.jpg)  
 Wysyłanie funkcji za pomocą props
 ![](Screen/props.jpg)
+
+W folderze **Pliki z kodem** są tylko pliki które zostały zmienione bądź dodane do aplikacji podstawowej.
