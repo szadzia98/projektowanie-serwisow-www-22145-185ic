@@ -30,7 +30,7 @@ App.jsx
 Info.jsx  
 ![](Screen/5.jpg)  
 __Widok wprowadzonych zmian w terminalu wypisany za pomocą "git diff"__  
-App,jsx  
+App.jsx  
 ![](Screen/6.jpg)  
-Info.jsx
+Info.jsx  
 ![](Screen/7.jpg)  
